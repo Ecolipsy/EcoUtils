@@ -1,0 +1,15 @@
+{
+    "Calm": 0,
+    "Light Air": 1,
+    "Light Breeze": 4,
+    "Gentle Breeze": 8,
+    "Moderate Breeze": 13,
+    "Fresh Breeze": 18,
+    "Strong Breeze": 25,
+    "Near Gale": 31,
+    "Gale": 39,
+    "Severe Gale": 47,
+    "Strong Storm": 55,
+    "Violent Storm": 64,
+    "Hurricane": 74
+}
