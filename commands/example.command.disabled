@@ -1,0 +1,8 @@
+module.exports = class{
+    static name = "example";
+    static description = "Example command";
+    static category = "Misc";
+    static async exec(int){
+        int.reply("Hello, world!");
+    }
+}

@@ -123,7 +123,7 @@ module.exports = class{
         {name: "Sky's Cloud Percentage", value: `${weather.cloudAreaFraction}%`, inline: true},
         {name: "Air Pressure", value: `${weather.airPressure} millibars`, inline: true}
       ],
-      footer: {text: "Weather API by met.no, geolocation by storm.no"},
+      footer: {text: "Weather API by met.no, geolocation by OpenWeatherMap"},
       thumbnail: {url: "attachment://" + weatherIconName}
     };
     int.reply({embeds: [embed], files: ["./png/" + weatherIconName]});
