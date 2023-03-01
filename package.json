@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "while [ true ];do;node .;done"
   },
   "keywords": [],
   "author": "",
