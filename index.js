@@ -2,6 +2,7 @@
 const { Client } = require("discord.js");
 const fs = require("fs");
 const client = new Client({intents: 3276799});
+console.log("Env vars:", process.env);
 const token = process.env.TOKEN;
 const commands = [];
 global.embedColor = 0x005080;
