@@ -2,7 +2,7 @@
 const { Client } = require("discord.js");
 const fs = require("fs");
 const client = new Client({intents: 3276799});
-const token = fs.readFileSync("token.txt").toString().trim();
+const token = process.env.TOKEN || fs.readFileSync("token.txt").toString().trim();
 const commands = [];
 global.embedColor = 0x005080;
 global.startDate = Date.now();
