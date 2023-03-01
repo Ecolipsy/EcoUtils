@@ -27,9 +27,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      env:
-        TOKEN: ${{ secrets.TOKEN }}
-        OPENWEATHERMAP_KEY: ${{ secrets.OPENWEATHERMAP_KEY }}
     - run: npm ci
     - run: npm install
     - run: npm run start
+      env:
+        TOKEN: ${{ secrets.TOKEN }}
+        OPENWEATHERMAP_KEY: ${{ secrets.OPENWEATHERMAP_KEY }}
