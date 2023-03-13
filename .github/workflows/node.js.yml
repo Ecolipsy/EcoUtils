@@ -33,3 +33,6 @@ jobs:
       env:
         TOKEN: ${{ secrets.TOKEN }}
         OPENWEATHERMAP_KEY: ${{ secrets.OPENWEATHERMAP_KEY }}
+    
+    - name: Ready!
+    if: ${{ success() }}
